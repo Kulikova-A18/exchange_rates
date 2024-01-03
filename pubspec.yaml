@@ -1,0 +1,28 @@
+name: exchange_rates
+description: An example project for flutter-desktop-embedding.
+
+version: 0.1.0
+
+environment:
+  sdk: ">=3.0.6 <4.0.0"
+  flutter: ">=3.3.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.2
+  intl: ^0.19.0
+
+  cupertino_icons: ^1.0.6
+  provider: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/Iphone-spinner-2.gif
+    - assets/adobe-mountains-nature-simple-wallpaper-preview.jpg
